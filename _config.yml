@@ -1,0 +1,27 @@
+collections:
+  authors:
+    output: true
+
+domain: kotbarsik96.github.io
+url: https://kotbarsik96.github.io
+baseurl: '/jekyll.github.io/'
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

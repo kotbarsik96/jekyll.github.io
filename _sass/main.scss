@@ -1,0 +1,19 @@
+body {
+  background-color: #aaaaaa;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  color: blue;
+  
+  &--active {
+    color: red;
+  }
+}

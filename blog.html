@@ -1,0 +1,16 @@
+---
+title: Blog
+---
+
+<h1>Latest posts:</h1>
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <h2>
+      <a class="link" href="{{ post.url }}"> {{ post.title }} </a>
+      <span> {{ post.excerpt }} </span>
+    </h2>
+  </li>
+  {% endfor %}
+</ul>
